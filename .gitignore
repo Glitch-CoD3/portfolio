@@ -28,3 +28,5 @@ tailwind.config.js
 postcss.config.js
 package-lock.json
 README.md
+installation.txt
+eslint.config.js
