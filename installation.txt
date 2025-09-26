@@ -24,18 +24,3 @@ These are add to index.css file
 ................//Become center a DIV..........
 <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2 ">
  </div>
-
-
-
- ..............Social icon link svg 
- 1. https://www.svgrepo.com/show/494278/linkedin-round.svg
- 2.https://www.svgrepo.com/show/503362/git.svg
- 3. https://www.svgrepo.com/show/503338/facebook.svg
-
-
-
- social link: 
- https://github.com/Glitch-CoD3
- www.linkedin.com/in/md-juel-rana-944949202
- https://www.facebook.com/juel.rana.chaya/
- https://www.youtube.com/@mdjuelrana3500
