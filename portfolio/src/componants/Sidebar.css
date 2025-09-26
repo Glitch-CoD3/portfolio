@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-section {
+    @apply w-full h-screen flex justify-center bg-black;
+}
+
+.main-container {
+    @apply flex justify-around gap-8 ;
+}
+
+/* ......sidebar css........  */
+.sidebar {
+    @apply sticky w-[320px] h-[800px] bg-[#2a2a2a] text-[rgb(224,224,224)] rounded-lg mt-4 border-[1px] border-gray-500 ;
+    box-shadow: 8px 8px 5px rgba(224,224,224, 0.2);
+}
+.profile {
+    @apply pt-8;
+}
+
+.profile img {
+    @apply w-[120px] h-[120px] rounded-full mx-auto border border-black hover:scale-110 transition-transform duration-500 ease-in-out;
+}
+
+.profile h1{
+    @apply flex justify-center font-sans mt-3 text-xl font-bold text-[#e0e0e0];
+}
+
+.profile p {
+    @apply mx-auto flex justify-center w-1/2 font-sans bg-gray-800 text-[#F5F935] text-sm  mt-4 rounded-md border-[1px] border-[#3a3a3a];
+}
+
+.profile_hr{
+    @apply w-[80%] m-auto mt-8 mb-6 border-gray-400;
+}
+
+
+.label {
+    @apply text-[#a0a0a0] font-semibold font-sans text-[0.8rem] mt-2;
+}
+.value {
+    @apply  text-[#e0e0e0] font-bold text-sm font-sans ;
+}
+
+.contact_hr {
+    @apply w-[80%] m-auto mt-6 border-gray-400;
+}
+
+/* socilal media sidebar selction */
+.social_media {
+    @apply flex mt-6  gap-2 justify-center  ;
+}
+.github {
+    @apply w-8 h-auto hover:scale-110 transition-all duration-300  ease-in-out;
+    filter: grayscale(1) invert(0.7);
+    
+}
+.linkedin {
+    @apply w-8  h-auto hover:scale-110 transition-all duration-300  ease-in-out;
+    filter: grayscale(1) invert(0.7);
+}
+.facebook {
+    @apply w-8 h-auto  hover:scale-110 transition-all duration-300  ease-in-out;
+    filter: grayscale(1) invert(0.7);
+}
+.youtube {
+    @apply w-8 h-auto   hover:scale-110 transition-all duration-300  ease-in-out;
+    filter: grayscale(1) invert(0.7);
+}

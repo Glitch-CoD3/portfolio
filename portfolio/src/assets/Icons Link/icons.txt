@@ -1,0 +1,7 @@
+https://files.svgcdn.io/simple-icons/unrealengine.svg
+https://files.svgcdn.io/simple-icons/git.svg
+https://files.svgcdn.io/simple-icons/html5.svg
+https://files.svgcdn.io/simple-icons/cplusplus.svg
+https://files.svgcdn.io/simple-icons/css3.svg
+https://files.svgcdn.io/simple-icons/javascript.svg
+https://files.svgcdn.io/simple-icons/react.svg
