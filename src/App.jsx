@@ -31,7 +31,7 @@ function App() {
             <Skills />
 
             <Education />
-
+   
             <Portfolio />
 
           </div>
