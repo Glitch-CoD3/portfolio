@@ -6,12 +6,7 @@
 #skill {
     @apply my-4 font-sans text-[#a0a0a0];
 }
-.line {
-    @apply mt-3 mb-1 w-16 h-1 bg-[#F5F935] ;
-}
-#skill h2 {
-    @apply text-2xl font-semibold text-[#e0e0e0];
-}
+
 
 .item-container {
     @apply flex flex-wrap gap-4 items-center mt-4;

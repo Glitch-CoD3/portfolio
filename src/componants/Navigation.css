@@ -3,8 +3,9 @@
 @tailwind utilities;
 
 
+
 .navigation nav {
-    @apply flex justify-end sticky gap-8 pb-4 border-b-[1px] border-gray-500;
+    @apply flex justify-end gap-8 pb-4 border-b-[1px] border-gray-500 ;
 }
 nav a{
 @apply text-sm font-semibold text-[#a0a0a0] mt-5 font-sans hover:text-[#F5F935] transition-all duration-300 ease-in-out;

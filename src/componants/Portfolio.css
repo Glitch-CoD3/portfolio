@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#portfolio {
+    @apply font-sans text-[#a0a0a0] my-8;
+}
+
+

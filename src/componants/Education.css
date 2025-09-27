@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#education {
+    @apply font-sans text-[#a0a0a0] my-8 ;
+}
+
+.edTech {
+    @apply mt-6 pl-6 relative;
+}
+
+.year {
+    @apply text-sm;
+}
+
+.eduFirst, .eduSecond {
+    @apply mt-3 mb-5 relative ;
+}
+.edTech h3 {
+    @apply my-2 text-[#e0e0e0] font-sans font-semibold ;
+}
+
+.college {
+    @apply italic mb-2 text-sm;
+
+}
+
+
+
+.round {
+  @apply w-4 h-4 rounded-full border-[3px] border-[#F5F935] absolute top-1 -left-6 z-10 bg-black;
+}
+
+.liner {
+    @apply w-0 absolute top-2 bottom-0 border-[1px] border-[#828181] left-[7px];
+}
