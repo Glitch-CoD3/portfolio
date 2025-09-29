@@ -1,6 +1,6 @@
 import React from 'react'
 import '../componants/Sidebar.css'
-import photo from "../../public/img.jpeg"
+import photo from "../../public/img.jpg"
 
 function Sidebar() {
   return (
