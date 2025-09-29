@@ -17,5 +17,5 @@
 
 
 #about p {
-    @apply text-justify mt-2 hover:scale-105 transition-transform duration-700 ease-in-out;
+    @apply text-justify mt-2 hover:text-white transition-colors  duration-700 ease-in-out;
 }

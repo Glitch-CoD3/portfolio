@@ -14,8 +14,14 @@
     @apply pt-8;
 }
 
+/* hover:scale-105 transition-transform duration-700 ease-in-out  */
+
 .profile img {
-    @apply w-[120px] h-[120px] rounded-full mx-auto border border-black hover:scale-110 transition-transform duration-500 ease-in-out;
+    @apply w-[120px] h-[120px] rounded-full mx-auto border border-black;
+}
+
+.profile img:hover {
+  content: url("/img2.jpg");
 }
 
 .profile h1{
