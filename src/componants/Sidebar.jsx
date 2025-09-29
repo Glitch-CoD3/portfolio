@@ -9,7 +9,7 @@ function Sidebar() {
         <div className="profile">
           <img src={photo} alt="photo" />
           <h1>MD JUEL RANA</h1>
-          <p>3D Game Developer</p>
+          <p>Software Developer</p>
 
         </div>
         <hr className='profile_hr' />
