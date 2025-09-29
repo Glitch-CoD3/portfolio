@@ -7,4 +7,8 @@
     @apply font-sans text-[#a0a0a0] my-8;
 }
 
+.projects {
+    @apply flex flex-wrap justify-evenly gap-4;
+}
+
 

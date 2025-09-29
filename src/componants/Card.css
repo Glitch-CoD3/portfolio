@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+    @apply w-[260px] h-auto bg-[#000000] mt-6 rounded-lg font-sans text-[#a0a0a0] shadow-md shadow-gray-600;
+}
+.card img {
+    @apply w-[260px] h-[150px] rounded-lg;
+}
+
+.footer {
+    @apply ml-1 mt-2;
+}
+
+.footer h2 {
+    @apply text-lg font-bold text-[#e0e0e0] mb-1;
+}
+
+.footer p {
+    @apply pb-2;
+}
+
+.language {
+    @apply pb-4 gap-1 flex justify-center;
+}
+
+.footer span {
+    @apply px-2 py-1 text-[#F5F935] rounded-lg font-semibold bg-[#2a2a2a] text-sm;
+}
